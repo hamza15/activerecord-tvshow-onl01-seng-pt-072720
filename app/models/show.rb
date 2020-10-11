@@ -7,4 +7,7 @@ class Shows < ActiveRecord::Base[4.2]
     find_by(rating: highest_rating)
   end 
   
+  def lowest_rating
+    
+  end
 end
