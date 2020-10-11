@@ -22,4 +22,8 @@ class Shows < ActiveRecord::Base
   def self.popular_shows
     where('rating > 5')
   end
+  
+  def self.
+    
+  end
 end
