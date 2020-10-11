@@ -1,4 +1,4 @@
-class Shows < ActiveRecord::Base[5.2]
+class Shows < ActiveRecord::Base
   
   
 end
