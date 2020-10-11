@@ -8,6 +8,6 @@ class Shows < ActiveRecord::Base[4.2]
   end 
   
   def self.lowest_rating
-    
+    minimum(:rating)
   end
 end
