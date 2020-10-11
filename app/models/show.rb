@@ -3,4 +3,8 @@ class Shows < ActiveRecord::Base[4.2]
     maximum(:rating)
   end
   
+  def 
+    
+  end 
+  
 end
