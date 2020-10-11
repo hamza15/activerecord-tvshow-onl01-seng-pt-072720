@@ -3,6 +3,8 @@ class Shows < ActiveRecord::Base[4.2]
     maximum(:rating)
   end
   
-  
+  def most_popular_show
+    
+  end 
   
 end
