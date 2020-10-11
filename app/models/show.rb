@@ -1,5 +1,5 @@
 class Shows < ActiveRecord::Base[4.2]
-  def highest_rating
+  def self.highest_rating
     
   end
   
