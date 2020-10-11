@@ -4,7 +4,7 @@ class Shows < ActiveRecord::Base[4.2]
   end
   
   def self.most_popular_show
-    
+    find_by(rating: highest_rating)
   end 
   
 end
